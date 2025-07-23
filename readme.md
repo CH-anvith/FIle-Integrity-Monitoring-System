@@ -1,7 +1,6 @@
 
 # A basic FIM
 FIM (short for File Integrity Monitor) is a tool that monitors a host’s local system for changes to specified files, directories, and registry settings to detect illicit modifications. In this basic FIM, it accomplishes its task by calculating file hashes and storing them in a baseline, then the monitoring starts by verifying that the current file state hash is equal to the one stored in our trusted baseline.
-For a more in-depth step-by-step tutorial, check out this 4 minute read [Documentation](https://dev.to/oaamine/hashing-algorithms-and-creating-a-simple-file-integrity-monitor-fim-5ei9) i made about the project.
 
 This project was heavily inspired by Josh Madakor's [Youtube Video](https://www.youtube.com/watch?v=WJODYmk4ys8&t=156s&ab_channel=JoshMadakor). Check out his channel for cybersecurity related content.
 ## Installation
