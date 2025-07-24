@@ -1,21 +1,4 @@
-# function Test-Administrator()
-# {  
-#     $user = [Security.Principal.WindowsIdentity]::GetCurrent();
-#     (New-Object Security.Principal.WindowsPrincipal $user).IsInRole([Security.Principal.WindowsBuiltinRole]::Administrator)  
-# }
 
-
-
-# Check if script is executed with Admin privileges
-# if (Test-Administrator == false){
-#     Write-Host "Please run as Admin"
-#     Break
-# }
-
-
-
-# Check if Script is called with first argument as monitoring directory
-# else monitoring directpry is the current working directory
 $param1=$args[0]
 $param2=$args[1]
 if ($param2 -ne $null) {
