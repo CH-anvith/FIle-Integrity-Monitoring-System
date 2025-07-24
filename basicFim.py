@@ -72,10 +72,7 @@ else:
             filehash = line.split('|')[1]
             filepath_filehash_dict[filepath] = filehash
 
-    # files = filter(os.path.isfile, os.listdir(monitoring_dir))  # files only
-    # for f in files:
-    #     print(str(f))
-    
+
     
     while True:
         time.sleep(1)
